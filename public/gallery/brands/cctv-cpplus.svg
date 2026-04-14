@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <rect width="960" height="720" rx="32" fill="#FFFFFF"/>
+  <rect x="48" y="48" width="864" height="624" rx="24" fill="#FFF7ED" stroke="#FED7AA" stroke-width="3"/>
+  <rect x="200" y="180" width="560" height="240" rx="20" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="2"/>
+  <rect x="420" y="220" width="120" height="80" rx="12" fill="#F97316"/>
+  <circle cx="480" cy="258" r="18" fill="#FFFFFF"/>
+  <text x="480" y="520" text-anchor="middle" fill="#0A0A0A" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="48" font-weight="800">CP PLUS</text>
+  <text x="480" y="575" text-anchor="middle" fill="#52525B" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">Smart security " Easy monitoring</text>
+</svg>

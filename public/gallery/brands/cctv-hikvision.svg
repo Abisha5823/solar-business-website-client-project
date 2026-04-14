@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <rect width="960" height="720" rx="32" fill="#FAFAFA"/>
+  <rect x="48" y="48" width="864" height="624" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="3"/>
+  <rect x="280" y="160" width="400" height="280" rx="24" fill="#F4F4F5" stroke="#E4E4E7" stroke-width="2"/>
+  <circle cx="480" cy="300" r="72" fill="#F97316"/>
+  <circle cx="480" cy="300" r="28" fill="#FFFFFF"/>
+  <rect x="420" y="440" width="120" height="40" rx="8" fill="#0A0A0A"/>
+  <text x="480" y="560" text-anchor="middle" fill="#0A0A0A" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="44" font-weight="800">HIKVISION</text>
+  <text x="480" y="610" text-anchor="middle" fill="#52525B" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">HD surveillance " Day &amp; night</text>
+</svg>

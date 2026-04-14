@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <rect width="960" height="720" rx="32" fill="#FAFAFA"/>
+  <rect x="48" y="48" width="864" height="624" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="3"/>
+  <rect x="260" y="170" width="440" height="300" rx="22" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+  <rect x="320" y="230" width="320" height="180" rx="14" fill="#F97316"/>
+  <text x="480" y="330" text-anchor="middle" fill="#FFFFFF" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="44" font-weight="800">MAXIOM</text>
+  <text x="480" y="540" text-anchor="middle" fill="#0A0A0A" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">User-friendly monitoring</text>
+  <text x="480" y="590" text-anchor="middle" fill="#52525B" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">SME-friendly security</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <rect width="960" height="720" rx="32" fill="#FAFAFA"/>
+  <rect x="48" y="48" width="864" height="624" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="3"/>
+  <rect x="140" y="160" width="680" height="280" rx="18" fill="#0A0A0A"/>
+  <rect x="180" y="200" width="600" height="200" rx="12" fill="#F97316"/>
+  <text x="480" y="310" text-anchor="middle" fill="#FFFFFF" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="52" font-weight="800">EXIDE</text>
+  <text x="480" y="520" text-anchor="middle" fill="#0A0A0A" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="36" font-weight="700">Trusted Performance</text>
+  <text x="480" y="570" text-anchor="middle" fill="#52525B" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">Backup you can count on</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="1200" height="825" viewBox="0 0 1200 825" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F4F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="825" rx="48" fill="url(#bg2)"/>
+  <rect x="60" y="70" width="1080" height="685" rx="36" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="4"/>
+  <rect x="120" y="140" width="520" height="520" rx="28" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="4"/>
+  <rect x="700" y="140" width="440" height="250" rx="28" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="4"/>
+  <rect x="700" y="410" width="440" height="250" rx="28" fill="#FAFAFA" stroke="#E4E4E7" stroke-width="4"/>
+  <rect x="170" y="190" width="420" height="340" rx="24" fill="#FFF7ED" stroke="#FED7AA" stroke-width="4"/>
+  <rect x="210" y="230" width="340" height="90" rx="18" fill="#F97316"/>
+  <text x="240" y="288" fill="#FFFFFF" font-size="36" font-family="Arial" font-weight="700">Inverter</text>
+  <rect x="210" y="340" width="340" height="150" rx="18" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="4"/>
+  <path d="M240 390H520" stroke="#0A0A0A" stroke-width="10" stroke-linecap="round" opacity="0.12"/>
+  <path d="M240 430H480" stroke="#0A0A0A" stroke-width="10" stroke-linecap="round" opacity="0.12"/>
+  <circle cx="820" cy="265" r="52" fill="#F97316" opacity="0.95"/>
+  <path d="M804 265H836" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M820 249V281" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <text x="730" y="570" fill="#0A0A0A" font-size="44" font-family="Arial" font-weight="700">Battery & Inverter Setup</text>
+  <text x="730" y="620" fill="#52525B" font-size="28" font-family="Arial" font-weight="500">Right sizing " Safe wiring " Smooth backup</text>
+</svg>
