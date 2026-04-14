@@ -4,7 +4,7 @@ export const SITE = {
   phoneDisplay: "+91 9488443271",
   phoneE164: "9488443271",
   email: "anbuenterprises@gmail.com",
-  addressLines: ["Your Street, Your Area", "Your City, Your State - 000000"],
+  addressLines: ["380/1, North St, near KTC DEPOT", "Kovilpatti, Tamil Nadu - 628502"],
   whatsappNumberE164: "9488443271",
   whatsappDefaultMessage:
     "Hello Anbu Enterprises , I would like an enquiry for Solar / Battery / RO / CCTV. Please contact me.",
