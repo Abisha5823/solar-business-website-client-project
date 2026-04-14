@@ -7,7 +7,7 @@ export const SITE = {
   addressLines: ["Your Street, Your Area", "Your City, Your State - 000000"],
   whatsappNumberE164: "9488443271",
   whatsappDefaultMessage:
-    "Hello Yes Solar Solutions, I would like an enquiry for Solar / Battery / RO / CCTV. Please contact me.",
+    "Hello Anbu Enterprises , I would like an enquiry for Solar / Battery / RO / CCTV. Please contact me.",
   businessHours: [
     { label: "Mon–Sat", value: "9:00 AM – 7:00 PM" },
     { label: "Sunday", value: "Closed" }

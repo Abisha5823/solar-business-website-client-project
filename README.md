@@ -1,6 +1,6 @@
-# Yes Solar Solutions — Business Website
+# Anbu Enterprises — Business Website
 
-Clean, modern, multi-page business website for **Yes Solar Solutions** (Solar, Batteries, RO systems, CCTV).
+Clean, modern, multi-page business website for Anbu Enterprise (Solar, Batteries, RO systems, CCTV).
 
 ## Tech
 
