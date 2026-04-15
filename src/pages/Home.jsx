@@ -25,7 +25,7 @@ function Hero() {
               <span className="text-brand-orange">Solar</span>, Batteries, RO & CCTV
             </h1>
             <p className="p mt-4 max-w-xl" data-aos="fade-up" data-aos-delay="100">
-              Anbu Enterprises helps homeowners, shop owners, and businesses choose the
+              Annbu Enterprises helps homeowners, shop owners, and businesses choose the
               right products — with proper sizing, neat wiring, and support.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row" data-aos="fade-up" data-aos-delay="150">

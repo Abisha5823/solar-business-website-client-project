@@ -1,13 +1,13 @@
 export const SITE = {
-  name: "ANBU ENTERPRISES",
+  name: "ANNBU ENTERPRISES",
   tagline: "Solar • Batteries • RO Systems • CCTV",
   phoneDisplay: "+91 9488443271",
   phoneE164: "9488443271",
-  email: "anbuenterprises@gmail.com",
+  email: "annbuenterprises@gmail.com",
   addressLines: ["380/1, North St, near KTC DEPOT", "Kovilpatti, Tamil Nadu - 628502"],
   whatsappNumberE164: "9488443271",
   whatsappDefaultMessage:
-    "Hello Anbu Enterprises , I would like an enquiry for Solar / Battery / RO / CCTV. Please contact me.",
+    "Hello Annbu Enterprises , I would like an enquiry for Solar / Battery / RO / CCTV. Please contact me.",
   businessHours: [
     { label: "Mon–Sat", value: "9:00 AM – 7:00 PM" },
     { label: "Sunday", value: "Closed" }
