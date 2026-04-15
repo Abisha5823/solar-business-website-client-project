@@ -1,11 +1,11 @@
 export const BATTERY_SHOWCASE = {
-  sectionTitle: "Our Battery Solutions",
+  sectionTitle: "Our Battery And Inverter Solutions",
   sectionSubtext:
     "We provide high-quality batteries and inverters from trusted brands for homes, shops, and commercial use. Our solutions ensure reliable backup power and long-lasting performance.",
   items: [
     {
       id: "amaron",
-      heading: "Amaron Batteries",
+      heading: "Amaron Battery And Inverter",
       paragraph:
         "Amaron batteries are known for their long life and consistent performance. They are ideal for inverter use and provide reliable backup for homes and businesses.",
       bullets: [
@@ -21,7 +21,7 @@ export const BATTERY_SHOWCASE = {
     },
     {
       id: "tata",
-      heading: "TATA Batteries",
+      heading: "TATA Battery And Inverter",
       paragraph:
         "TATA batteries offer dependable power solutions with strong build quality. They are designed for efficient performance and are suitable for various applications.",
       bullets: [
@@ -37,7 +37,7 @@ export const BATTERY_SHOWCASE = {
     },
     {
       id: "exide",
-      heading: "Exide Batteries",
+      heading: "Exide Battery And Inverter",
       paragraph:
         "Exide batteries are one of the most trusted battery brands, known for their durability and consistent performance across different usage conditions.",
       bullets: [
@@ -53,7 +53,7 @@ export const BATTERY_SHOWCASE = {
     },
     {
       id: "amaze",
-      heading: "Amaze Batteries",
+      heading: "Amaze Battery And Inverter",
       paragraph:
         "Amaze batteries provide cost-effective and reliable power backup solutions, making them suitable for everyday use in homes and small businesses.",
       bullets: [

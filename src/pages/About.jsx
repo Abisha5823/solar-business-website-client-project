@@ -22,10 +22,10 @@ const divisions = [
     imageAlt: "Solar solutions",
   },
   {
-    title: "Annbu Battery Service",
+    title: "Annbu Battery And Inverter Service",
     badge: "Authorised Dealer for Exide, Amaron, Tata, Amaze, and Microtek",
     paragraph:
-      "Annbu Battery Service provides dependable battery and inverter solutions for home, office, and shop backup needs. We offer trusted battery brands known for consistent performance and durability. Our goal is to help customers choose the right backup solution with proper support and reliable service.",
+      "Annbu Battery and Inverter Service provides dependable battery and inverter solutions for home, office, and shop backup needs. We offer trusted battery brands known for consistent performance and durability. Our goal is to help customers choose the right backup solution with proper support and reliable service.",
     points: [
       "Battery and inverter solutions",
       "Backup power support",
@@ -36,7 +36,7 @@ const divisions = [
     buttonLabel: "View Battery Solutions",
     buttonTo: "/battery",
     image:
-      "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1200&q=80",
+      "/gallery/car.jpg",
     imageAlt: "Battery and inverter solutions",
   },
   {
@@ -54,7 +54,7 @@ const divisions = [
     buttonLabel: "View RO Solutions",
     buttonTo: "/ro",
     image:
-      "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1200&q=80",
+      "/gallery/rservice.jpg",
     imageAlt: "RO water purification solutions",
   },
   {
