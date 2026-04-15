@@ -23,7 +23,7 @@ const divisions = [
   },
   {
     title: "Annbu Battery And Inverter Service",
-    badge: "Authorised Dealer for Exide, Amaron, Tata, Amaze, and Microtek",
+    badge: "Authorised Dealer for Exide, Amaron, Tata, Amaze, Microtek",
     paragraph:
       "Annbu Battery and Inverter Service provides dependable battery and inverter solutions for home, office, and shop backup needs. We offer trusted battery brands known for consistent performance and durability. Our goal is to help customers choose the right backup solution with proper support and reliable service.",
     points: [

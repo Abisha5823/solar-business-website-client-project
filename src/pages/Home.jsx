@@ -28,6 +28,11 @@ function Hero() {
               Annbu Enterprises helps homeowners, shop owners, and businesses choose the
               right products — with proper sizing, neat wiring, and support.
             </p>
+            <div className="mt-4 flex justify-start">
+  <span className="inline-flex items-center rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-brand-black shadow-sm">
+    ✔ Authorised Dealer for Trusted Solar, Battery, RO & CCTV Brands
+  </span>
+</div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row" data-aos="fade-up" data-aos-delay="150">
               <Link to="/contact" className="btn btn-primary">
                 Get a Free Quote

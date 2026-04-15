@@ -1,4 +1,4 @@
-# Anbu Enterprises — Business Website
+# Annbu Enterprises — Business Website
 
 Clean, modern, multi-page business website for Anbu Enterprise (Solar, Batteries, RO systems, CCTV).
 

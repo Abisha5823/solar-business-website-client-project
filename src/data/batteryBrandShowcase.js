@@ -67,5 +67,21 @@ export const BATTERY_SHOWCASE = {
       ctaLabel: "Enquire — Amaze",
       ctaTo: "/contact",
     },
+    {
+      id: "amaze",
+      heading: "Microtek Battery And Inverter",
+      paragraph:
+        "Microtek batteries provide cost-effective and reliable power backup solutions, making them suitable for everyday use in homes and small businesses.",
+      bullets: [
+        "Affordable pricing",
+        "Reliable performance",
+        "Suitable for regular use",
+        "Good value for money",
+      ],
+      image: "/gallery/micro.jpg",
+      imageAlt: "Amaze batteries",
+      ctaLabel: "Enquire — Amaze",
+      ctaTo: "/contact",
+    },
   ],
 };
