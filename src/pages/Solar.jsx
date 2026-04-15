@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PageHeader from "../components/PageHeader.jsx";
 import CTASection from "../components/CTASection.jsx";
+import BrandShowcaseZigZag from "../components/BrandShowcaseZigZag.jsx";
 import ContactDetails from "../components/ContactDetails.jsx";
+import { SOLAR_SHOWCASE } from "../data/solarBrandShowcase.js";
 
 export default function Solar() {
   return (
@@ -22,11 +24,31 @@ export default function Solar() {
         <div className="container-page">
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="card p-7 md:p-8" data-aos="fade-up">
+              <div className="kicker w-fit">Handled under Yes Solar Solutions</div>
               <h2 className="h2">What we provide</h2>
               <p className="p mt-3">
                 Solar systems designed for real usage — with correct sizing, quality components,
                 and neat finishing.
               </p>
+              <div className="mt-4 rounded-2xl border border-orange-200 bg-orange-50 p-4 text-sm text-zinc-700">
+                <div className="font-extrabold text-brand-orange">Authorised dealer support</div>
+                <div className="mt-1">
+                  We are an authorised dealer for trusted solar brands and provide product support and installation guidance.
+                </div>
+              </div>
+              <div className="mt-4 rounded-2xl border border-zinc-200 bg-white p-4">
+                <div className="text-sm font-extrabold text-ink-900">Brands</div>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {["Tata", "UTL", "Amaze"].map((b) => (
+                    <span
+                      key={b}
+                      className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700"
+                    >
+                      {b}
+                    </span>
+                  ))}
+                </div>
+              </div>
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 {[
                   { t: "Rooftop Solar", d: "Residential and commercial rooftops." },
@@ -80,6 +102,12 @@ export default function Solar() {
         </div>
       </section>
 
+      <BrandShowcaseZigZag
+        kicker="Brand showcase"
+        sectionTitle={SOLAR_SHOWCASE.sectionTitle}
+        sectionSubtext={SOLAR_SHOWCASE.sectionSubtext}
+        items={SOLAR_SHOWCASE.items}
+      />
       <ContactDetails />
       <CTASection />
     </>

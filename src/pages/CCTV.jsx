@@ -27,10 +27,30 @@ export default function CCTV() {
         <div className="container-page">
           <div className="grid gap-8 lg:grid-cols-2">
             <div className="card p-7 md:p-8" data-aos="fade-up">
+              <div className="kicker w-fit">Handled under CCTV Solutions</div>
               <h2 className="h2">What we install</h2>
               <p className="p mt-3">
                 Camera solutions for safety, monitoring, and peace of mind — tailored to your site layout.
               </p>
+              <div className="mt-4 rounded-2xl border border-orange-200 bg-orange-50 p-4 text-sm text-zinc-700">
+                <div className="font-extrabold text-brand-orange">Authorised dealer support</div>
+                <div className="mt-1">
+                  We provide trusted CCTV brands with product selection help, installation, and setup support.
+                </div>
+              </div>
+              <div className="mt-4 rounded-2xl border border-zinc-200 bg-white p-4">
+                <div className="text-sm font-extrabold text-ink-900">Brands</div>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {["Dahua", "Hikvision", "CP Plus", "Hi Focus"].map((b) => (
+                    <span
+                      key={b}
+                      className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700"
+                    >
+                      {b}
+                    </span>
+                  ))}
+                </div>
+              </div>
               <div className="mt-6 grid gap-3 sm:grid-cols-2">
                 {[
                   { t: "Indoor cameras", d: "Reception, rooms, counters." },

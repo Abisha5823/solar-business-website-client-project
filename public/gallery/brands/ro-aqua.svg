@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" fill="none">
+  <rect width="960" height="720" rx="32" fill="#FAFAFA"/>
+  <rect x="48" y="48" width="864" height="624" rx="24" fill="#FFFFFF" stroke="#E4E4E7" stroke-width="3"/>
+  <rect x="160" y="140" width="640" height="320" rx="24" fill="#F4F4F5" stroke="#E4E4E7" stroke-width="2"/>
+  <circle cx="480" cy="300" r="110" fill="#F97316" opacity="0.95"/>
+  <text x="480" y="316" text-anchor="middle" fill="#FFFFFF" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="56" font-weight="900">AQUA</text>
+  <text x="480" y="520" text-anchor="middle" fill="#0A0A0A" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="34" font-weight="800">Everyday RO systems</text>
+  <text x="480" y="570" text-anchor="middle" fill="#52525B" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="22" font-weight="500">Practical " Easy maintenance</text>
+</svg>
+

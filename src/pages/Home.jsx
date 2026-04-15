@@ -2,7 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { SITE } from "../config/site.js";
 import { PRODUCT_CATEGORIES, GALLERY_IMAGES } from "../data/catalog.js";
+import { DIVISIONS } from "../data/divisions.js";
 import { ProductGrid } from "../components/ProductCards.jsx";
+import DivisionsCarousel from "../components/DivisionsCarousel.jsx";
 import CTASection from "../components/CTASection.jsx";
 
 function Hero() {
@@ -123,6 +125,31 @@ export default function Home() {
   return (
     <>
       <Hero />
+
+      <section className="section bg-white">
+        <div className="container-page">
+          <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <div className="kicker w-fit" data-aos="fade-up">
+                Our Divisions
+              </div>
+              <h2 className="h2 mt-4" data-aos="fade-up" data-aos-delay="50">
+                Clear services under dedicated divisions
+              </h2>
+              <p className="p mt-3 max-w-2xl" data-aos="fade-up" data-aos-delay="100">
+                Explore what each division handles. We keep the enquiry flow simple and guide you to the right solution.
+              </p>
+            </div>
+            <Link to="/contact" className="btn btn-primary w-fit" data-aos="fade-up">
+              Enquire Now
+            </Link>
+          </div>
+
+          <div className="mt-8">
+            <DivisionsCarousel items={DIVISIONS} />
+          </div>
+        </div>
+      </section>
 
       <section className="section">
         <div className="container-page">

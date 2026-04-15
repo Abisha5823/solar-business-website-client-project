@@ -78,6 +78,92 @@ export default function About() {
         </div>
       </section>
 
+      <section className="section section-gray">
+        <div className="container-page">
+          <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+            <div>
+              <div className="kicker w-fit" data-aos="fade-up">
+                Our Business Divisions
+              </div>
+              <h2 className="h2 mt-4" data-aos="fade-up" data-aos-delay="50">
+                Clear services under dedicated divisions
+              </h2>
+              <p className="p mt-3 max-w-3xl" data-aos="fade-up" data-aos-delay="100">
+                We organize services into divisions so customers can quickly understand what we do and where to enquire.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-8 grid gap-6 lg:grid-cols-2">
+            {[
+              {
+                title: "Yes Solar Solutions",
+                desc: ["Solar installation", "Rooftop systems"],
+                brands: ["Tata", "UTL", "Amaze"],
+                btn: "View Solar Solutions",
+                to: "/solar"
+              },
+              {
+                title: "Annbu Battery Service",
+                desc: ["Inverter batteries", "Backup solutions"],
+                brands: ["Exide", "Amaron", "Tata", "Amaze", "Microtek"],
+                btn: "View Battery Solutions",
+                to: "/battery"
+              },
+              {
+                title: "Annbu Aqua",
+                desc: ["RO systems", "Water purification"],
+                brands: ["Kent", "Aqua"],
+                btn: "View RO Solutions",
+                to: "/ro"
+              },
+              {
+                title: "CCTV Solutions",
+                desc: ["Camera installation", "Indoor & outdoor surveillance"],
+                brands: ["Dahua", "Hikvision", "CP Plus", "Hi Focus"],
+                btn: "View CCTV Solutions",
+                to: "/cctv"
+              }
+            ].map((d) => (
+              <div key={d.title} className="card p-7 md:p-8" data-aos="fade-up">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                  <div>
+                    <div className="text-xl font-extrabold tracking-tight text-ink-900 md:text-2xl">
+                      {d.title}
+                    </div>
+                    <ul className="mt-3 space-y-2 text-sm text-zinc-700">
+                      {d.desc.map((x) => (
+                        <li key={x} className="flex items-start gap-2">
+                          <span className="mt-1 inline-flex h-2 w-2 rounded-full bg-brand-orange" />
+                          <span>{x}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <Link to={d.to} className="btn btn-primary w-fit">
+                    {d.btn}
+                  </Link>
+                </div>
+
+                <div className="mt-6 rounded-2xl border border-zinc-200 bg-white p-4">
+                  <div className="text-sm font-extrabold text-ink-900">Brands</div>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {d.brands.map((b) => (
+                      <span
+                        key={b}
+                        className="rounded-full border border-zinc-200 bg-white px-3 py-1 text-xs font-semibold text-zinc-700"
+                      >
+                        {b}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <CTASection title="Want to know what fits your usage?" subtitle="Share your requirement and we’ll suggest the best options with a clear quote." />
     </>
   );
