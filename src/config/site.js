@@ -3,7 +3,7 @@ export const SITE = {
   tagline: "Solar • Batteries • RO Systems • CCTV",
   phoneDisplay: "+91 9488443271",
   phoneE164: "9488443271",
-  email: "annbuenterprises@gmail.com",
+  email: "annbuenterpriseskvp@gmail.com",
   addressLines: ["380/1, North St, near KTC DEPOT", "Kovilpatti, Tamil Nadu - 628502"],
   whatsappNumberE164: "9488443271",
   whatsappDefaultMessage:
