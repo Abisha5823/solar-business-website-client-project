@@ -1,59 +1,105 @@
-# Annbu Enterprises — Business Website
+# Anbu Enterprises – Business Website
 
-Clean, modern, multi-page business website for Anbu Enterprise (Solar, Batteries, RO systems, CCTV).
+## Live Project
 
-## Tech
+Website: https://www.annbuenterprises.com/
 
-- React + Vite
-- React Router (multi-page navigation)
-- Tailwind CSS (light, professional theme)
-- AOS (subtle fade-up scroll reveal)
-- EmailJS (enquiry form)
+## Project Overview
 
-## Getting started
+Anbu Enterprises required a professional online presence to showcase their products and services, improve customer reach, and generate business enquiries digitally.
 
-### 1) Install dependencies
+To address this, I designed and developed a responsive business website that allows customers to explore products, learn about services, and contact the company through enquiry forms and WhatsApp integration.
 
-```bash
-npm install
-```
+## Business Problem
 
-### 2) Configure EmailJS (enquiry form)
+The client needed:
 
-Copy the env example:
+* A professional company website
+* Product and service showcase
+* Customer enquiry system
+* Mobile-friendly design
+* Easy communication through WhatsApp
 
-```bash
-copy .env.example .env
-```
+## Solution
 
-Fill:
+Developed and deployed a multi-page business website with responsive design, enquiry management, and lead-generation features.
 
-- `VITE_EMAILJS_SERVICE_ID`
-- `VITE_EMAILJS_TEMPLATE_ID`
-- `VITE_EMAILJS_PUBLIC_KEY`
+The website provides customers with information about:
 
-EmailJS template variables expected:
+* Solar Solutions
+* Batteries
+* RO Water Purification Systems
+* CCTV Solutions
 
-- `from_name`
-- `phone`
-- `email`
-- `service`
-- `location`
-- `message`
+## Key Features
 
-### 3) Run locally
+* Responsive mobile-first design
+* Multi-page navigation using React Router
+* Product and service showcase
+* Customer enquiry form integration
+* WhatsApp lead generation
+* Contact information and business details
+* Smooth user experience with animations
+* SEO-friendly website structure
 
-```bash
-npm run dev
-```
+## My Responsibilities
 
-## Brand/Contact configuration
+* Requirement gathering with client
+* UI/UX implementation
+* Frontend development
+* Form integration using EmailJS
+* Deployment and hosting
+* Testing and bug fixing
+* Client communication and revisions
 
-Update business details in:
+## Tech Stack
 
-- `src/config/site.js`
+Frontend:
 
-Update brands / gallery items in:
+* React.js
+* JavaScript (JSX)
+* React Router
+* Tailwind CSS
 
-- `src/data/catalog.js`
+Services:
+
+* EmailJS
+
+Deployment:
+
+* Production Hosting
+
+## Architecture
+
+User
+↓
+React Frontend
+↓
+EmailJS Enquiry Service
+↓
+Business Owner Receives Enquiry
+
+## Challenges Faced
+
+* Creating a responsive design across devices
+* Managing enquiry form submissions
+* Maintaining fast page loading performance
+* Organizing product information for easy navigation
+
+## Outcomes
+
+* Successfully deployed for a real business client
+* Improved online visibility
+* Enabled digital lead generation through enquiry forms and WhatsApp
+* Delivered a production-ready website used by actual customers
+
+## Skills Demonstrated
+
+* React.js Development
+* JavaScript (JSX)
+* Client Requirement Analysis
+* Responsive Web Design
+* API Integration
+* Deployment & Hosting
+* Production Support
 
